@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Balsamiq+Sans&family=Bubblegum+Sans&display=swap');
+
+
+body{
+    background-color: #9AD0EC !important;  /*   
+    */
+}
+
+*{  /*Selector select all the element on the page*/
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px; 
+    background-color: #1572A1;
+    color: black;
+}
+
+nav ul li{
+    padding: 0px 10px;
+    font-size: 1.3em;
+}
+
+.brand img{
+    width: 120px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.9em;
+}
+
+.fab{
+    color: black;
+}
+
+.Contain{
+    min-height: 70vh;
+    background-color: #1572A1;
+    color: #fff;
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 2%;
+    background-image: url(bg1.jpeg);
+
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: #1572A1;
+    color: #fff;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*it takes all items in centre*/
+    flex-direction: column;
+}
+.icons{
+    margin: 30px 0px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.progressBar{
+    padding-top: 30px;
+}
+
+.SongItem{
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    width: 90%;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    margin: 10px;
+    padding-right: 3%;
+}
+
+.SongItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.timeStamps i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.songInfo img{
+    width: 10%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+@media (max-width: 477px) {
+    nav ul li{
+        padding: 0px 6px;
+    }
+    nav ul{
+        padding: 0!important;
+        height: 85px;
+    }
+    .brand{
+        padding-right: 3%;
+    }
+    .popupabout{
+        font-size: 0.3em;
+    }
+    .card-body{
+        padding: 0 !important;
+    }
+    .bottom{
+        text-align: center;
+    }
+    #masterSongName{
+        position: relative;;
+        right: 40px;
+        bottom: 15px;
+    }
+    #gif{
+        position: relative;
+        right: 50px;
+        bottom: 15px;
+        width: 20%;
+    }
+    #durations{
+        display: none;
+    }
+}
+
+@media (max-width: 874px){
+    .Contain{
+        width: 90%;
+    }
+    .SongItem{
+        width: 95%;
+        height: 60px;
+    }
+    .timeStamp{
+        margin: 0 10px;
+    }
+    .SongItem img{
+        margin-right: 6px;
+        margin-left: 6px;
+    }
+    .timeStamp{
+        margin-left: 0px !important;
+    }
+}
