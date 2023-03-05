@@ -11,4 +11,4 @@
 
 ## Deployment
 
-To view my work please [Click Here](https://soumyadipghosh23.github.io/Music-Maniac-MusicPlayer/)
+To view my work please [Click Here](https://nabanita05.github.io/MusicPlayer/)
